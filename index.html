@@ -1,31 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INVO Academy JS Starter with Vite</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>INVO Academy JS Starter with Vite</title>
-</head>
-
-<!-- In order to start your challenge, remove all the content inside <div id="home-page"></div> and start coding :) -->
-
-<body>
-  <div id="home-page">
-    <div>
-      <img src="/public/images/javascript.svg" class="logo vanilla" alt="JavaScript logo" />
-      <h1>INVO Academy JS Starter with Vite</h1>
+  <body>
+    <div id="home-page">
+      <h1>AI plays a significant role in our daily lives</h1>
       <p>
-        See the README.md for more information on how to start your challenge.
+        The goal of AI is to create systems that can operate autonomously,
+        making decisions and taking actions based on their own understanding of
+        the world, without the need for direct human input.
       </p>
-      <div class="card">
-        <button id="counter" type="button"></button>
+      <div class="areas-container">
+        <div class="area-container">
+          <div class="icon">icon placeholder</div>
+          <h2>Machine Learning</h2>
+          <p>
+            The ability of AI systems to learn from data and improve their
+            performance
+          </p>
+        </div>
+        <div class="area-container">
+          <div class="icon">icon placeholder</div>
+          <h2>Computer Vision</h2>
+          <p>
+            The ability to process and analyze visual information, such as
+            images and videos
+          </p>
+        </div>
+        <div class="area-container">
+          <div class="icon">icon placeholder</div>
+          <h2>Natural Language</h2>
+          <p>
+            The ability of AI systems to understand, interpret, and generate
+            human language
+          </p>
+        </div>
+        <div class="area-container">
+          <div class="icon">icon placeholder</div>
+          <h2>Robotics</h2>
+          <p>
+            development of autonomous robots that can perform tasks without
+            human intervention
+          </p>
+        </div>
       </div>
     </div>
-  </div>
 
-  <script type="module" src="/src/global-scripts/main.js"></script>
-  <script type="module" src="/src/pages/home-page/scripts/home-page.js"></script>
-</body>
-
+    <script type="module" src="/src/global-scripts/main.js"></script>
+    <script
+      type="module"
+      src="/src/pages/home-page/scripts/home-page.js"
+    ></script>
+  </body>
 </html>
