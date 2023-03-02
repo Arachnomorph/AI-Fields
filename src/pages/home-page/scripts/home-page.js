@@ -2,5 +2,3 @@
 /// Here we import all the JavaScript files we need for our homepage.
 
 import '../styles/home-page.scss'
-
-setupCounter(document.querySelector('#counter'))
