@@ -1,5 +1,13 @@
-#home-page {
+body {
   background-color: var(--color-background);
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home-page {
   padding: 16px;
 
   display: grid;
@@ -13,6 +21,7 @@
   font-size: 32px;
   line-height: 40px;
   font-weight: 500;
+  margin-top: 0;
 }
 
 .intro__text {
