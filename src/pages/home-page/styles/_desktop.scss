@@ -3,8 +3,7 @@
     padding: 152px;
 
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-items: stretch;
-    gap: 24px;
+    gap: var(--gap-big);
   }
 
   .intro {
@@ -14,7 +13,7 @@
   }
 
   .area-container {
-    border-radius: 24px;
+    border-radius: var(--border-radius-vbig);
     overflow: hidden;
     transition-duration: 300ms;
     position: relative;
@@ -31,44 +30,44 @@
     &--learning:before {
       background: linear-gradient(
         135deg,
-        rgba(39, 45, 66, 1) 0%,
-        rgba(39, 45, 66, 1) 48%,
-        rgba(144, 144, 144, 1) 49%,
-        rgba(55, 49, 85, 1) 50%,
-        rgba(55, 49, 85, 1) 100%
+        var(--color-area-background) 0%,
+        var(--color-area-background) 48%,
+        var(--color-hover-edge) 49%,
+        var(--color-learning-icon-background) 50%,
+        var(--color-learning-icon-background) 100%
       );
     }
 
     &--vision:before {
       background: linear-gradient(
         135deg,
-        rgba(39, 45, 66, 1) 0%,
-        rgba(39, 45, 66, 1) 48%,
-        rgba(144, 144, 144, 1) 49%,
-        rgba(44, 52, 85, 1) 50%,
-        rgba(44, 52, 85, 1) 100%
+        var(--color-area-background) 0%,
+        var(--color-area-background) 48%,
+        var(--color-hover-edge) 49%,
+        var(--color-vision-icon-background) 50%,
+        var(--color-vision-icon-background) 100%
       );
     }
 
     &--language:before {
       background: linear-gradient(
         135deg,
-        rgba(39, 45, 66, 1) 0%,
-        rgba(39, 45, 66, 1) 48%,
-        rgba(144, 144, 144, 1) 49%,
-        rgba(39, 66, 85, 1) 50%,
-        rgba(39, 66, 85, 1) 100%
+        var(--color-area-background) 0%,
+        var(--color-area-background) 48%,
+        var(--color-hover-edge) 49%,
+        var(--color-language-icon-background) 50%,
+        var(--color-language-icon-background) 100%
       );
     }
 
     &--robotics:before {
       background: linear-gradient(
         135deg,
-        rgba(39, 45, 66, 1) 0%,
-        rgba(39, 45, 66, 1) 48%,
-        rgba(144, 144, 144, 1) 49%,
-        rgba(61, 65, 63, 1) 50%,
-        rgba(61, 65, 63, 1) 100%
+        var(--color-area-background) 0%,
+        var(--color-area-background) 48%,
+        var(--color-hover-edge) 49%,
+        var(--color-robotics-icon-background) 50%,
+        var(--color-robotics-icon-background) 100%
       );
     }
 
@@ -87,7 +86,7 @@
   }
 
   .area__icon {
-    padding: 16px;
-    border-radius: 16px;
+    padding: var(--gap-small);
+    border-radius: var(--border-radius-medium);
   }
 }

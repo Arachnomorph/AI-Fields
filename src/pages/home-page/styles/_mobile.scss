@@ -8,10 +8,10 @@ body {
 }
 
 #home-page {
-  padding: 16px;
+  padding: var(--gap-small);
 
   display: grid;
-  gap: 16px;
+  gap: var(--gap-small);
   grid-template-columns: 1fr;
 }
 
@@ -49,18 +49,18 @@ body {
 
 .area-container {
   background-color: var(--color-area-background);
-  border-radius: 20px;
+  border-radius: var(--border-radius-big);
   padding: 20px;
 
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  justify-content: center;
+  gap: var(--gap-small);
+  justify-content: start;
   align-items: center;
 }
 
 .area__icon {
-  border-radius: 14px;
+  border-radius: var(--border-radius-small);
   padding: 14px;
 
   &--learning {

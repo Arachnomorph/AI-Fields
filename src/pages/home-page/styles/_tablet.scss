@@ -1,7 +1,7 @@
 @media only screen and (min-width: 550px) {
     #home-page {
         grid-template-columns: 240px 240px;
-        align-items: center;
+        align-items: stretch;
         justify-items: center;
     }
 
