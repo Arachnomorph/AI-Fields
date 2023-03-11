@@ -1,21 +1,30 @@
 @media only screen and (min-width: 1366px) {
   #home-page {
-    padding: 152px;
+    padding: 159px 152px 140px 152px;
 
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: stretch;
-    gap: 24px;
+    grid-column-gap: 24px;
+    grid-row-gap: 31px;
   }
 
   .intro {
-    padding-right: 86px;
+    padding-right: 85px;
     grid-column: span 2;
     grid-row: span 2;
+  }
+
+  .intro__title {
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 24px;
   }
 
   .area-container {
     border-radius: 24px;
     overflow: hidden;
+    padding: 24px 16px;
+
     transition-duration: 300ms;
     position: relative;
 
@@ -87,7 +96,16 @@
   }
 
   .area__icon {
+    width: 32px;
+    height: 32px;
+
     padding: 16px;
     border-radius: 16px;
+  }
+
+  .area__text {
+    width: 236px;
+    font-size: 16px;
+    line-height: 24px;
   }
 }

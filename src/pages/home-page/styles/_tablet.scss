@@ -1,11 +1,24 @@
 @media only screen and (min-width: 550px) {
-    #home-page {
-        grid-template-columns: 240px 240px;
-        align-items: center;
-        justify-items: center;
-    }
+  #home-page {
+    padding: 0 0 16px 0;
 
-    .intro {
-        grid-column: span 2;
-    }
+    grid-template-columns: 240px 240px;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .intro {
+    margin-bottom: 8px;
+
+    grid-column: span 2;
+  }
+
+  .intro__title {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .area-container {
+    padding: 20px 17px 20px 14px;
+  }
 }
