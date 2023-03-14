@@ -24,74 +24,74 @@
     overflow: hidden;
     padding: 24px 16px;
 
-    transition-duration: 300ms;
-    position: relative;
+    // transition-duration: 300ms;
+    // position: relative;
 
-    &:hover {
-      transform: scale(1.1);
-      transition-duration: 300ms;
+    // &:hover {
+    //   transform: scale(1.1);
+    //   transition-duration: 300ms;
 
-      &:before {
-        background-position: 100% 100%;
-      }
-    }
+    //   &:before {
+    //     background-position: 100% 100%;
+    //   }
+    // }
 
-    &--learning:before {
-      background: linear-gradient(
-        135deg,
-        rgba(39, 45, 66, 1) 0%,
-        rgba(39, 45, 66, 1) 48%,
-        rgba(144, 144, 144, 1) 49%,
-        rgba(55, 49, 85, 1) 50%,
-        rgba(55, 49, 85, 1) 100%
-      );
-    }
+    // &--learning:before {
+    //   background: linear-gradient(
+    //     135deg,
+    //     rgba(39, 45, 66, 1) 0%,
+    //     rgba(39, 45, 66, 1) 48%,
+    //     rgba(144, 144, 144, 1) 49%,
+    //     rgba(55, 49, 85, 1) 50%,
+    //     rgba(55, 49, 85, 1) 100%
+    //   );
+    // }
 
-    &--vision:before {
-      background: linear-gradient(
-        135deg,
-        rgba(39, 45, 66, 1) 0%,
-        rgba(39, 45, 66, 1) 48%,
-        rgba(144, 144, 144, 1) 49%,
-        rgba(44, 52, 85, 1) 50%,
-        rgba(44, 52, 85, 1) 100%
-      );
-    }
+    // &--vision:before {
+    //   background: linear-gradient(
+    //     135deg,
+    //     rgba(39, 45, 66, 1) 0%,
+    //     rgba(39, 45, 66, 1) 48%,
+    //     rgba(144, 144, 144, 1) 49%,
+    //     rgba(44, 52, 85, 1) 50%,
+    //     rgba(44, 52, 85, 1) 100%
+    //   );
+    // }
 
-    &--language:before {
-      background: linear-gradient(
-        135deg,
-        rgba(39, 45, 66, 1) 0%,
-        rgba(39, 45, 66, 1) 48%,
-        rgba(144, 144, 144, 1) 49%,
-        rgba(39, 66, 85, 1) 50%,
-        rgba(39, 66, 85, 1) 100%
-      );
-    }
+    // &--language:before {
+    //   background: linear-gradient(
+    //     135deg,
+    //     rgba(39, 45, 66, 1) 0%,
+    //     rgba(39, 45, 66, 1) 48%,
+    //     rgba(144, 144, 144, 1) 49%,
+    //     rgba(39, 66, 85, 1) 50%,
+    //     rgba(39, 66, 85, 1) 100%
+    //   );
+    // }
 
-    &--robotics:before {
-      background: linear-gradient(
-        135deg,
-        rgba(39, 45, 66, 1) 0%,
-        rgba(39, 45, 66, 1) 48%,
-        rgba(144, 144, 144, 1) 49%,
-        rgba(61, 65, 63, 1) 50%,
-        rgba(61, 65, 63, 1) 100%
-      );
-    }
+    // &--robotics:before {
+    //   background: linear-gradient(
+    //     135deg,
+    //     rgba(39, 45, 66, 1) 0%,
+    //     rgba(39, 45, 66, 1) 48%,
+    //     rgba(144, 144, 144, 1) 49%,
+    //     rgba(61, 65, 63, 1) 50%,
+    //     rgba(61, 65, 63, 1) 100%
+    //   );
+    // }
 
-    &:before {
-      background-position: 0% 0%;
-      background-size: 300% 300%;
-      content: "";
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      left: 0px;
-      top: 0px;
-      transition: background-position 350ms ease;
-      z-index: -1;
-    }
+    // &:before {
+    //   background-position: 0% 0%;
+    //   background-size: 300% 300%;
+    //   content: "";
+    //   position: absolute;
+    //   height: 100%;
+    //   width: 100%;
+    //   left: 0px;
+    //   top: 0px;
+    //   transition: background-position 350ms ease;
+    //   z-index: -1;
+    // }
   }
 
   .area__icon {
