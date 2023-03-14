@@ -1,9 +1,8 @@
-@media only screen and (min-width: 1366px) {
+@media only screen and (min-width: 1250px) {
   #home-page {
-    padding: 159px 152px 140px 152px;
+    padding: 19px 0 0 0;
 
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-items: stretch;
+    grid-template-columns: 268px 260px 268px 268px;
     grid-column-gap: 24px;
     grid-row-gap: 31px;
   }
@@ -101,6 +100,11 @@
 
     padding: 16px;
     border-radius: 16px;
+  }
+
+  .area__title {
+    line-height: 24px;
+    letter-spacing: normal;
   }
 
   .area__text {

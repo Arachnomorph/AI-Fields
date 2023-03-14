@@ -41,6 +41,7 @@ body {
   color: var(--color-text-primary);
   font-family: "DM Sans", sans-serif;
   font-size: 20px;
+  line-height: 24px;
   font-weight: 500;
   letter-spacing: -0.002em;
 }
@@ -61,11 +62,13 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 
 .area__icon {
+  width: 28px;
+  height: 28px;
   border-radius: 14px;
   padding: 14px;
 
